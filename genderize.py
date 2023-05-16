@@ -16,11 +16,9 @@ def get_gender_information():
     if "gender" in data and "probability" in data:
         gender = data["gender"]
         probability = data["probability"]
-        count = data["count"]
-        new_count = count/100
         new_probability = probability * 100
 
-        result_text.set(f"Count: {new_count}\n With a probability of: {new_probability}% \n {name} is a '{gender}'")
+        result_text.set(f"With a probability of: {new_probability}% \n {name} is a '{gender}'")
     else:
         result_text.set("Unable to determine the gender.")
 
@@ -37,12 +35,15 @@ entry.pack()
 
 # Create a button to retrieve the gender information
 button = tk.Button(window, text="Get Gender", command=get_gender_information)
-button.pack()
+button.place(x=165, y=50)  # Adjust the coordinates to position the button
 
 # Create a label to display the result
 result_text = tk.StringVar()
 result_label = tk.Label(window, textvariable=result_text, wraplength=300)
 result_label.pack()
+result_label.place(x=90,y=100)
+result_label.configure(font=("Calibri", 14))  # Adjust the font attributes as desired
+
 
 # Start the Tkinter event loop
 window.mainloop()
