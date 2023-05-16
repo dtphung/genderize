@@ -1,6 +1,6 @@
-# YouTube Downloader with Pytube
+# Gender Name Information (This is a just 4 fun project)
 
-This is a GUI tool for downloading YouTube videos using Pytube.
+The code demonstrates the implementation of a simple graphical user interface (GUI) using the Tkinter library in Python. It allows users to enter a name and retrieve gender information for that name by making a request to an external API.
 
 ## Requirements
 
@@ -19,7 +19,3 @@ Run the script by executing the `genderize.py` file with Python in the command-l
 2. Get results
 
 ![image](https://github.com/dtphung/genderize/assets/76885700/18f2dbd1-efe0-4baf-9737-90d3629954ae)
-
-## License
-
-This project is licensed under the [MIT License](LICENSE.md).
