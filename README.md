@@ -1,4 +1,4 @@
-# Gender Name Information (This is a just 4 fun project)
+# Gender Name Information (This is just for fun)
 
 The code demonstrates the implementation of a simple graphical user interface (GUI) using the Tkinter library in Python. It allows users to enter a name and retrieve gender information for that name by making a request to an external API.
 
