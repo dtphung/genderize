@@ -18,6 +18,7 @@ Run the script by executing the `genderize.py` file with Python in the command-l
 1. Enter Name
 2. Get results
 
+![image](https://github.com/dtphung/genderize/assets/76885700/18f2dbd1-efe0-4baf-9737-90d3629954ae)
 
 ## License
 
